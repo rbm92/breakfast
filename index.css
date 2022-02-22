@@ -1,3 +1,22 @@
-/* Tipo de letra Roboto */
-
 /* Color de fondo: #00d7b7 */
+body {
+    background-color: #00d7b7;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Tipo de letra h1: Roboto */
+  h1 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+  }
+  
+  /* Enlaces en mayúscula y sin subrayar */
+  nav a {
+      text-transform: uppercase;
+      text-decoration: none;
+  }
+  
+  /* Margen superior extra al último párrafo */
+  p.love {
+      margin-top: 40px;
+  }
